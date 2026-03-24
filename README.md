@@ -10,9 +10,25 @@ A robust, PEP 8 compliant Python CLI utility that consolidates a **Unit Converte
 - **Clean Termination**: Safely catches `KeyboardInterrupt` (`Ctrl+C`) and `EOFError` (`Ctrl+D`) for graceful exits without ugly tracebacks.
 
 ## Prerequisites
-- Python 3.6 or higher
+- **Python 3.6+**: Install using `sudo apt update && sudo apt install python3 -y`
+- **Git**: Install using `sudo apt update && sudo apt install git -y`
 
-## Usage
+## Installation & Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/hiddendestroyer1945/unit-converter.git
+   ```
+
+2. **Navigate to the directory**:
+   ```bash
+   cd unit-converter
+   ```
+
+3. **Check permissions** (optional):
+   ```bash
+   chmod +x unit-converter.py
+   ```
 
 Run the script from your terminal:
 
